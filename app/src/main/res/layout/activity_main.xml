@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WELCOME"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERID : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/useremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <Button
+
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textSize="30sp"
+        android:id="@+id/passmanager"
+        android:text="Manage PAssword" />
+    <Button
+
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/notesmanager"
+        android:textSize="30sp"
+        android:text="Manage Magical Notes" />
+
+
+    <Button
+        android:id="@+id/btn_signout"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+
+        android:textSize="20sp"
+        android:text="SIGN OUT" />
+
+
+</LinearLayout>

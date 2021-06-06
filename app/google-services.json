@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "257552976914",
+    "firebase_url": "https://passnote-21dcf-default-rtdb.firebaseio.com",
+    "project_id": "passnote-21dcf",
+    "storage_bucket": "passnote-21dcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257552976914:android:b2b40546016f756a07dccb",
+        "android_client_info": {
+          "package_name": "com.example.passnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257552976914-e9e3g488e9durtrv8han4c3tj97kumhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHS3AAdkRQjZUT7kUsMD1araWM-4gcWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257552976914-e9e3g488e9durtrv8han4c3tj97kumhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
